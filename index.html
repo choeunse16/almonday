@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>al!monday</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon6.ico" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- slide js -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/header.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 내가 만든 css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<!-- 팝업, 메인베너 추가하기, 레시피 호버 애니메이션 -->
+
+<body>
+    <header>
+        <!-- border_bottom -->
+        <div id="top">
+            <!-- 배경색 -->
+            <div class="top_inner">
+                <!-- 마진오토, width -->
+                <ul class="greating">
+                    <li>
+                        <p>hello it's Mondy🖐</p>
+                    </li>
+                    <li>
+                        <p>nice to see you🧡</p>
+                    </li>
+                    <li>
+                        <p>i hope you guys have an almondful day✨</p>
+                    </li>
+                </ul>
+                <h1 class="greating_close">
+                    <img src="./images/greating_close.png" alt="창닫기">
+                </h1>
+            </div>
+            <!--top_inner-->
+        </div>
+        <!--top-->
+
+        <div id="header_inner" class="clearfix">
+            <!-- width, margin:auto -->
+            <h1 class="logo">
+                <a href="./index.html"><img src="./images/h1_logo.png" alt="로고"></a>
+            </h1>
+            <!--logo-->
+            <ul class="list1 clearfix">
+                <li><a href="./about.html">about</a><span class="under"></span></li>
+                <li><a href="./sub2_drinks.html">product</a><span class="under"></span>
+                    <ul class="sub">
+                        <li><a href="./sub2_drinks.html">drinks</a></li>
+                        <li><a href="./sub2_ice_cream.html">ice cream</a></li>
+                        <li><a href="./sub2_yogurt.html">yogurt</a></li>
+                        <li><a href="./sub2_cheese.html">cheese</a></li>
+                    </ul>
+                </li>
+                <li><a href="./sub3.html">recipes</a><span class="under"></span></li>
+                <li><a href="./sub4_event.html">community</a><span class="under"></span>
+                    <ul class="sub">
+                        <li><a href="./sub4_event.html">event</a></li>
+                        <li><a href="./sub4_notice.html">notice</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--list1-->
+            <ul class="list2 clearfix">
+                <li><a href="#">log in</a></li>
+                <li><a href="#">join us</a></li>
+                <li><a href="#">my page</a></li>
+                <li><a href="#">cart</a></li>
+            </ul>
+            <!--list2-->
+        </div>
+        <!--header_inner-->
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper main_banner" id="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/mb_1_welcome.png" alt="mb1">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/mb_2_recycling.png" alt="mb2">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper -->
+
+    <div id="products">
+        <!-- bg -->
+        <div class="floating_text"></div>
+        <div id="products_inner">
+            <!-- margin:auto, width -->
+            <h2 class="section1_title">PRODUCTS</h2>
+            <ul class="products" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+                <li><a href="#">
+                        <img src="./images/sec1_original.png" alt="오리지널맛">
+                        <img src="./images/sec1_original_hover.png" alt="original_hover" class="hover">
+                        <div class="icon1">
+                            <img src="./images/icon_best.png" alt="icon_best">
+                        </div>
+                        <!-- icon -->
+                        <div class="products_text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+                            <h3>아!몬데이 오리지널 1L</h3>
+                            <p class="b">4,000WON</p>
+                            <p class="na">아몬드가 가득 들어간 아!몬데이 오리지널로<br>
+                                고소한 하루를 시작하세요</p>
+                        </div>
+                        <!-- text -->
+                    </a></li>
+                <!-- 1st -->
+                <li><a href="#">
+                        <img src="./images/sec2_choco.png" alt="초코맛">
+                        <img src="./images/sec1_choco_hover.png" alt="choco_hover" class="hover">
+                        <div class="products_text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+                            <h3>아!몬데이 초콜릿 드링크 1L</h3>
+                            <p class="b">4,500WON</p>
+                            <p class="na">진하고 달콤한 아!몬데이 초콜릿 드링크와 함께<br>
+                                달달한 하루를 시작하세요</p>
+                        </div>
+                        <!-- text -->
+                    </a></li>
+                <!-- 2nd -->
+                <li><a href="#">
+                        <img src="./images/sec3_baristaEdition.png" alt="바리스타에디션">
+                        <img src="./images/sec3_baristaEdition_hover.png" alt="barista_hover" class="hover">
+                        <div class="icon2">
+                            <img src="./images/icon_new.png" alt="icon_new">
+                        </div>
+                        <div class="products_text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+                            <h3>아!몬데이 바리스타 에디션 1L</h3>
+                            <p class="b">4,500WON</p>
+                            <p class="na">아!몬데이 바리스타 에디션으로<br>
+                                원두의 맛과 향, 부드러움을 온전히 느껴보세요</p>
+                        </div>
+                        <!-- text -->
+                    </a></li>
+                <!-- 3rd -->
+            </ul>
+            <!--ul)products-->
+        </div>
+        <!--products_inner-->
+    </div>
+    <!--products-->
+
+    <div id="video">
+        <!-- background_img -->
+        <div class="video_inner">
+            <!-- width, margin:auto -->
+            <video src="./media/video.mp4" muted autoplay playsinline loop></video>
+        </div>
+        <!--video_inner-->
+    </div>
+    <!--video-->
+
+    <div id="recipes">
+        <!-- width, margin:auto -->
+        <h1 class="ribon_title">
+            <img src="./images/ribon_title.png" alt="리본타이틀">
+        </h1>
+        <h2 class="section3_title">enjoy your al!mond</h2>
+    </div>
+    <!--recipes-->
+
+    <div id="slide" data-aos="fade" data-aos-duration="1000" data-aos-delay="100">
+        <div class="slide_inner">
+            <ul>
+                <li><a href="#none">
+                        <div class="border padding">
+                            <img src="./images/recipe1.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>cappuccino</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe2.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>milk tea</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe3.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>strawberry latte</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe4.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>blueberry yogurt</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe5.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>chocolat yogurt</h4>
+                    </a></li>
+            </ul>
+            <ul>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe6.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>matcha latte</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe7.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>banana yogurt</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe8.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>brownie kiwi yogurt</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe9.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>strawberry yogurt</h4>
+                    </a></li>
+                <li><a href="#none">
+                        <div class="border">
+                            <img src="./images/recipe10.png" alt="슬라이드 이미지">
+                        </div>
+                        <h4>matcha latte</h4>
+                    </a></li>
+            </ul>
+        </div>
+        <!--slid_inner E-->
+    </div>
+    <!--slide E-->
+    <!-- slide포함 레시피 끝! -->
+
+    <div id="sns">
+        <!-- width, margin:auto -->
+        <h1 class="sns_title">INSTAGRAM</h1>
+        <ul class="sns_photo" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+            <li><a href="#"><img src="./images/sns1.jpg" alt="sns1"></a></li>
+            <li><a href="#"><img src="./images/sns2.jpg" alt="sns2"></a></li>
+            <li><a href="#"><img src="./images/sns3.jpg" alt="sns3"></a></li>
+            <li><a href="#"><img src="./images/sns4.jpg" alt="sns4"></a></li>
+        </ul>
+
+        <ul class="sns_photo_2" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
+            <li><a href="#"><img src="./images/sns5.jpg" alt="sns5"></a></li>
+            <li><a href="#"><img src="./images/sns6.jpg" alt="sns6"></a></li>
+            <li><a href="#"><img src="./images/sns7.jpg" alt="sns7"></a></li>
+            <li><a href="#"><img src="./images/sns8.jpg" alt="sns8"></a></li>
+        </ul>
+    </div>
+    <!--sns-->
+
+    <footer>
+        <!-- background-img -->
+        <div id="footer_inner" class="clearfix">
+            <!-- width, margin:auto -->
+            <h1 class="footer_logo">
+                <img src="./images/footer_logo.png" alt="푸터로고">
+            </h1>
+            <div class="foot_text">
+                <ul class="about clearfix">
+                    <li><a href="#">al!monday story</a></li>
+                    <li>|</li>
+                    <li><a href="#">notice</a></li>
+                    <li>|</li>
+                    <li><a href="#">events</a></li>
+                    <li>|</li>
+                    <li><a href="#">f & q</a></li>
+                </ul>
+                <!-- about -->
+
+                <ul class="info">
+                    <li><span>Company/CEO</span> | AMD INTERNATIONAL CO.,LTD. / Cho Eun Se</li>
+                    <li><span>Address</span> | 부산광역시 해운대구 센텀남대로 35</li>
+                    <li><span>E-mail</span> | al!monday@xmail.com</li>
+                </ul>
+                <!-- info -->
+
+                <p class="copyright">COPYRIGHTS ⓒ al!monday.CO.LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+            <!--foot_text-->
+
+            <div class="follow_us">
+                <p class="follow_us_title">follow us ❣</p>
+                <ul class="sns_icon clearfix">
+                    <li><a href="#"><img src="./images/footer)icon_instagram.png" alt="인스타로고"></a></li>
+                    <li><a href="#"><img src="./images/footer)icon_facebook.png" alt="페이스북로고"></a></li>
+                    <li><a href="#"><img src="./images/footer)icon_youtube.png" alt="유튜브로고"></a></li>
+                </ul>
+                <!-- sns_icon -->
+            </div>
+            <!--find_us-->
+        </div>
+        <!--footer_inner-->
+    </footer>
+
+    <!-- top_btn -->
+    <a href="#swiper" class="top_btn">
+        <img src="./images/top_btn.png" alt="탑버튼">
+    </a>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".main_banner", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Initialize swiper -->
+    <script>
+        var swiper = new Swiper(".main_banner", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- aos -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1420">
+    <title>event</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon6.ico" type="image/x-icon">
+    <!-- 라이브러리파일 -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/event.js"></script>
+    <script src="./js/header.js"></script>
+    <!-- 내가 만든 css -->
+    <link rel="stylesheet" href="./css/sub4_event.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- border_bottom -->
+        <div id="top">
+            <!-- 배경색 -->
+            <div class="top_inner">
+                <!-- 마진오토, width -->
+                <ul class="greating">
+                    <li>
+                        <p>hello it's Mondy🖐</p>
+                    </li>
+                    <li>
+                        <p>nice to see you🧡</p>
+                    </li>
+                    <li>
+                        <p>i hope you guys have an almondful day✨</p>
+                    </li>
+                </ul>
+                <h1 class="greating_close">
+                    <img src="./images/greating_close.png" alt="창닫기">
+                </h1>
+            </div>
+            <!--top_inner-->
+        </div>
+        <!--top-->
+
+        <div id="header_inner" class="clearfix">
+            <!-- width, margin:auto -->
+            <h1 class="logo">
+                <a href="./index.html"><img src="./images/h1_logo.png" alt="로고"></a>
+            </h1>
+            <!--logo-->
+            <ul class="list1 clearfix">
+                <li><a href="./about.html">about</a><span class="under"></span></li>
+                <li><a href="./sub2_drinks.html">product</a><span class="under"></span>
+                    <ul class="sub">
+                        <li><a href="./sub2_drinks.html">drinks</a></li>
+                        <li><a href="./sub2_ice_cream.html">ice cream</a></li>
+                        <li><a href="./sub2_yogurt.html">yogurt</a></li>
+                        <li><a href="./sub2_cheese.html">cheese</a></li>
+                    </ul>
+                </li>
+                <li><a href="./sub3.html">recipes</a><span class="under"></span></li>
+                <li><a href="./sub4_event.html">community</a><span class="under"></span>
+                    <ul class="sub">
+                        <li><a href="./sub4_event.html">event</a></li>
+                        <li><a href="./sub4_notice.html">notice</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--list1-->
+            <ul class="list2 clearfix">
+                <li><a href="#">log in</a></li>
+                <li><a href="#">join us</a></li>
+                <li><a href="#">my page</a></li>
+                <li><a href="#">cart</a></li>
+            </ul>
+            <!--list2-->
+        </div>
+        <!--header_inner-->
+    </header>
+
+    <div id="container">
+        <!-- width, margin:auto -->
+        <h1>COMMUNITY</h1>
+
+        <ul class="tab_btn">
+            <li><a href="./sub4_event.html">
+                    <img src="images/sub4_event_btn_hover.png" alt="이벤트탭버튼">
+                </a></li>
+            <li><a href="./sub4_notice.html">
+                    <img src="./images/sub4_notice_btn.png" alt="공지탭버튼">
+                    <img src="images/sub4_notice_btn_hover.png" alt="공지탭버튼" class="tab_hover">
+                </a></li>
+        </ul>
+
+        <ul class="tabs clearfix">
+            <!-- 탭 메뉴 영역 -->
+            <li><a href="#tab1">진행중인 이벤트</a></li>
+            <li><a href="#tab2">종료된 이벤트</a></li>
+        </ul>
+
+        <div class="tab_container">
+            <!-- 탭 콘텐츠 영역 -->
+            <div id="tab1" class="tab_content">
+                <!-- content -->
+                <ul class="clearfix">
+                    <li><a href="#" class="event1">
+                            <div class="img hover1">
+                                <img src="./images/event_1.png" alt="이벤트1">
+                            </div>
+                            <p>아!몬데이 바리스타 에디션 출시 기념 1+1 이벤트</p>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img hover1">
+                                <img src="./images/event_2.png" alt="이벤트2">
+                            </div>
+                            <p>🐰흑토끼 몬디가 물어온 새해 이벤트!🐰</p>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img hover1">
+                                <img src="./images/event_3.png" alt="이벤트3">
+                            </div>
+                            <p>🎅산타 몬디가 준비한 크리스마스 선물🎄</p>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img hover1">
+                                <img src="./images/event_4.png" alt="이벤트4">
+                            </div>
+                            <p>아!몬데이 팝업스토어 행사 안내(with.몬디)</p>
+                        </a></li>
+                </ul>
+            </div>
+            <!-- tab1 -->
+
+            <div id="tab2" class="tab_content">
+                <!-- content -->
+                <ul class="clearfix">
+                    <li><a href="#">
+                            <div class="img1 hover2">
+                                <img src="./images/event_end_1.png" alt="종료이벤트1">
+                                <div class="black_box">
+                                    <!--포지션앱솔루트-->
+                                    <h4 class="black_box_text">🕙종료되었어요🕛</h4>
+                                </div>
+                                <!--black_box-->
+                            </div>
+                            <p>👨‍🍳제 1회 아!몬데이 레시피왕 선발 대회👨‍🍳</p>
+
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img1 hover2">
+                                <img src="./images/event_end_2.png" alt="종료이벤트2">
+                                <div class="black_box">
+                                    <!--포지션앱솔루트-->
+                                    <h4 class="black_box_text">🕙종료되었어요🕛</h4>
+                                </div>
+                                <!--black_box-->
+                            </div>
+                            <p>🌲식목일에 몬디랑 나무 심을 사람?🌲</p>
+
+                        </a></li>
+                </ul>
+            </div>
+            <!--tab2-->
+        </div>
+        <!--tab_container-->
+    </div>
+    <!--container-->
+
+    <footer>
+        <!-- background-img -->
+        <div id="footer_inner" class="clearfix">
+            <!-- width, margin:auto -->
+            <h1 class="footer_logo">
+                <img src="./images/footer_logo.png" alt="푸터로고">
+            </h1>
+            <div class="foot_text">
+                <ul class="about clearfix">
+                    <li><a href="#">al!monday story</a></li>
+                    <li>|</li>
+                    <li><a href="#">notice</a></li>
+                    <li>|</li>
+                    <li><a href="#">events</a></li>
+                    <li>|</li>
+                    <li><a href="#">f & q</a></li>
+                </ul>
+                <!-- about -->
+
+                <ul class="info">
+                    <li><span>Company/CEO</span> | AMD INTERNATIONAL CO.,LTD. / Cho Eun Se</li>
+                    <li><span>Address</span> | 부산광역시 해운대구 센텀남대로 35</li>
+                    <li><span>E-mail</span> | al!monday@xmail.com</li>
+                </ul>
+                <!-- info -->
+
+                <p class="copyright">COPYRIGHTS ⓒ al!monday.CO.LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+            <!--foot_text-->
+
+            <div class="follow_us">
+                <p class="follow_us_title">follow us ❣</p>
+                <ul class="sns_icon clearfix">
+                    <li><a href="#"><img src="./images/footer)icon_instagram.png" alt="인스타로고"></a></li>
+                    <li><a href="#"><img src="./images/footer)icon_facebook.png" alt="페이스북로고"></a></li>
+                    <li><a href="#"><img src="./images/footer)icon_youtube.png" alt="유튜브로고"></a></li>
+                </ul>
+                <!-- sns_icon -->
+            </div>
+            <!--find_us-->
+
+
+        </div>
+        <!--footer_inner-->
+    </footer>
+
+    <!-- top_btn -->
+    <a href="#container" class="top_btn">
+        <img src="./images/top_btn.png" alt="탑버튼">
+    </a>
+
+
+    <!-- 팝업창 -->
+    <div id="popup">
+        <!-- 검정배경 -->
+        <div class="popup_box clearfix">
+            <!-- bg_img -->
+            <div class="popup_text">
+                <h1>
+                    <img src="images/event_popup_title.png" alt="제목">
+                </h1>
+                <p class="date">
+                    기간 | 2022.10.06 ~ 2023.01.31
+                </p>
+                <h5>🥛 이벤트 기간동안 ‘아!몬데이 바리스타 에디션’을<br>
+                    구매하시는 모든분들께 아!몬데이 음료 1종을<br>
+                    <span>하나 더</span> 드려요 🥛
+                </h5>
+                <p>
+                    새롭게 출시된 아!몬데이 바리스타 에디션과 함께<br>
+                    더욱 부드럽고 깊은 커피의 맛을 느껴보세요
+                </p>
+
+            </div>
+            <!-- popup_text -->
+
+            <div class="popup_img">
+                <img src="./images/event_popup_img.png" alt="제품이미지">
+            </div>
+            <!-- popup_img -->
+
+            <a href="#none" class="close">
+                Close
+            </a>
+        </div>
+        <!--popup_box-->
+    </div>
+    <!--popup-->
+</body>
+
+</html>
